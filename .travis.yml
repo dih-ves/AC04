@@ -14,6 +14,6 @@ before_install:
 
 script:
 
-- coverage run --source=devops_ac04/Farina/ -m unittest discovery;coverage report -m
+- coverage run --source=devops_ac04/Farina/ -m unittest discover;coverage report -m
 
 - python -m unittest discover
