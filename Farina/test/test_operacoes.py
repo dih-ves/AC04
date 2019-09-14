@@ -1,5 +1,5 @@
 from unittest import TestCase
-from com.Farina.operacoes import Operacoes
+from Farina.operacoes import Operacoes
 
 class TestOperacoes(TestCase):
 	def setUp(self):
